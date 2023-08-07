@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Moon",
+        "index": "1",
+        "title": "Earth's Moon",
+        "description":"The fifth largest moon in the solar system, Earth's moon is the only place beyond Earth where humans have set foot."
+    },
+    {
+        "name": "Earth",
+        "index": "2",
+        "title": "Earth",
+        "description":"Earth—our home planet—is the only place we know of so far that’s inhabited by living things. It's also the only planet in our solar system with liquid water on the surface. "
+
+    },
+    {
+        "name": "Jupiter",
+        "index": "3",
+        "title": "Jupiter",
+        "description":"Jupiter is more than twice as massive than the other planets of our solar system combined. The giant planet's Great Red Spot is a centuries-old storm bigger than Earth. "
+
+    },
+    {
+        "name": "Mercury",
+        "index": "4",
+        "title": "Mercury",
+        "description":"From the surface of Mercury, the Sun would appear more than three times as large as it does when viewed from Earth, and the sunlight would be as much as 11 times brighter. "
+
+    },
+    {
+        "name": "Mars",
+        "index": "5",
+        "title": "Mars",
+        "description":"Mars is a dusty, cold, desert world with a very thin atmosphere. There is strong evidence Mars was – billions of years ago – wetter and warmer, with a thicker atmosphere."
+
+    }
+    
+  ]
