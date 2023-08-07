@@ -9,7 +9,7 @@ const HomePageCard = ({planet}) => {
          0{planet.index}-{planet.name}
         </div>
         <div className=' md:flex items-center justify-evenly'>
-            <img className=' animate-planet-spin md:w-[50%] m-auto' src={`${Base_URL}/images/planet_${planet.index}.png`}/>
+            <img className=' animate-planet-spin md:w-[50%] md:h-[50%] w-[350px] h-[350px] m-auto' src={`${Base_URL}/images/planet_${planet.index}.png`}/>
             <div className='md:w-[50%]'>
                 <div className=' bg-gray-900/75 w-[80%] md:min-w-[400px] h-[240px] m-auto'>
                     <div className='relative'>
