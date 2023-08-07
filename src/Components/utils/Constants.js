@@ -1,1 +1,1 @@
-export const Base_URL = ""
+export const Base_URL = "https://devsaqibhussain.github.io/responsive/"
