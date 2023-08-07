@@ -1,11 +1,11 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { NavBar, HomePage } from './Components'
-import { Base_URL } from './Components/utils/Constants'
+
 const App = () => {
   return (
     <BrowserRouter>
-      <div className='h-screen bg-page-bg bg-center bg-cover bg-fixed overflow-y-hidden'>
+      <div className=' h-full '>
         <NavBar/>
         <Routes>
           <Route exact path="/responsive/" element={<HomePage/>}/>
