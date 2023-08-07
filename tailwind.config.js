@@ -15,14 +15,6 @@ export default {
         Handjet: ["Handjet"],
         REM: ["REM"]
       },
-      keyframes : {
-        "planet-spin" : {
-          "100%" :{ transform: "rotate(-360deg)"}
-        }
-      },
-      animation :{
-        "planet-spin": "planet-spin 100s linear infinite"
-      }
     },
   },
   plugins: [],
