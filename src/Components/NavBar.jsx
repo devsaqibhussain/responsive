@@ -1,13 +1,13 @@
 import React from "react";
-import { Base_URL } from "./utils/Constants";
+
 import { Bars3Icon, XMarkIcon, GlobeEuropeAfricaIcon } from '@heroicons/react/24/outline'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 const NavBar = () => {
   const Tabs =[
-    {name: "Home", link: `${Base_URL}/`},
-    {name: "About", link: `${Base_URL}/`},
-    {name: "Contact", link: `${Base_URL}/`},
+    {name: "Home", link: "/responsive/"},
+    {name: "About", link:  "/responsive/"},
+    {name: "Contact", link:  "/responsive/"},
   ]
   const [open, setopen] = useState(false)
   const menuFunction = () =>{
