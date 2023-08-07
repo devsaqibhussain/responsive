@@ -12,6 +12,7 @@ const HomePage = () => {
 })
   const [data, setData] = useState([])
   callAPI("data/planets.json").then((data) => setData(data) )
+  
   const planetSelector = (e) => {
     setPlanet(e)
   }
