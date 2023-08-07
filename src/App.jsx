@@ -5,13 +5,10 @@ import { NavBar, HomePage } from './Components'
 const App = () => {
   return (
     <BrowserRouter>
-      <div className=' h-full '>
-        <NavBar/>
-        <Routes>
-          <Route exact path="/responsive/" element={<HomePage/>}/>
-        </Routes>
-
-      </div>
+      <NavBar/>
+      <Routes>
+        <Route exact path="/responsive/" element={<HomePage/>}/>
+      </Routes>
     </BrowserRouter>
   )
 }

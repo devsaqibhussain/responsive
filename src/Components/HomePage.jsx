@@ -16,7 +16,7 @@ const HomePage = () => {
     setPlanet(e)
   }
   return (
-    <div className=' h-full text-white/75'>
+    <div className='text-white/75'>
       <ul className=' flex gap-2 md:gap-4 m-auto items-center justify-center'>
         {data.map((planet,index)=>{
           return (
